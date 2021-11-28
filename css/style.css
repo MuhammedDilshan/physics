@@ -35,10 +35,10 @@ header {
 }
 
 #portfolio .container {
-    background-image: url(../images/Phylab1.JPG);
+    background: linear-gradient(to top, #41447d7c, #41447d80), url(../images/Phylab1.JPG);
     background-position: center;
     background-size: cover;
-    height: 200px;
+    height: 190px;
     border-radius: 12px;
     width: 80%;
     margin: 0 auto;
@@ -105,7 +105,7 @@ header {
         padding: 0 90px;
     }
     #portfolio .container {
-        height: 190px;
+        height: 150px;
     }
 }
 
@@ -114,13 +114,13 @@ header {
         padding: 0 72px;
     }
     #portfolio .container {
-        height: 160px;
+        height: 140px;
     }
 }
 
 @media all and (max-width:640px) {
     #portfolio .container {
-        height: 150px;
+        height: 130px;
     }
     #portfolio .staff {
         padding: 0 60px;
@@ -147,7 +147,7 @@ header {
         padding: 60px 0;
     }
     #portfolio .container {
-        height: 140px;
+        height: 120px;
     }
     #portfolio .container h1 {
         font-size: 28px;
@@ -182,7 +182,7 @@ header {
         padding: 0 34px;
     }
     #portfolio .container {
-        height: 130px;
+        height: 110px;
         width: 85%;
     }
 }
@@ -192,7 +192,7 @@ header {
         font-size: 26px;
     }
     #portfolio .container {
-        height: 120px;
+        height: 100px;
     }
     #portfolio .staff {
         font-size: 14px;
