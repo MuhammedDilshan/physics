@@ -52,12 +52,14 @@ header {
     text-align: center;
     font-size: 32px;
     font-weight: 600;
+    color: #9999;
 }
 
 #portfolio .staff {
     display: flex;
-    font-size: 22px;
+    font-size: 20px;
     padding: 0 116px;
+    color: #41447D;
 }
 
 #portfolio .staff .text {
@@ -108,9 +110,15 @@ header {
     #portfolio .staff {
         padding: 0 72px;
     }
+    #portfolio .container {
+        height: 180px;
+    }
 }
 
 @media all and (max-width:640px) {
+    #portfolio .container {
+        height: 160px;
+    }
     #portfolio .staff {
         padding: 0 60px;
     }
@@ -140,7 +148,7 @@ header {
     }
     #portfolio .staff {
         padding: 0 42px;
-        font-size: 20px;
+        font-size: 18px;
         flex-direction: column;
     }
     #portfolio .staff .text {
@@ -164,11 +172,11 @@ header {
 
 @media all and (max-width:360px) {
     #portfolio .staff {
-        font-size: 18px;
+        font-size: 16px;
         padding: 0 34px;
     }
     #portfolio .container {
-        height: 180px;
+        height: 150px;
         width: 85%;
     }
 }
@@ -178,9 +186,6 @@ header {
         font-size: 26px;
     }
     #portfolio .staff {
-        font-size: 16px;
-    }
-    #portfolio .container {
-        height: 160px;
+        font-size: 14px;
     }
 }
